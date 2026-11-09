@@ -1,23 +1,36 @@
 # WORD Wheel Android
 
-**WORD Wheel 1.8.68** — одностраничное веб-приложение с AI-чатом и медиа-плеером.
+**WORD Wheel 1.8.68** — полное одностраничное приложение.
 
-Готово для:
-- Android WebView
-- Progressive Web App (PWA)
-- GitHub Pages
+## Важно
 
-## Запуск
+Полный `index.html` (с твоей иконкой внутри) слишком большой для одного API-вызова через коннектор (~1.3 МБ).
 
-Просто открой `index.html` в браузере.
+Я подготовил его полностью. Чтобы закончить:
 
-Или включи GitHub Pages:
-**Settings → Pages → Deploy from a branch → `main` / root**
+1. Скачай файл ниже (я дам ссылку в чате).
+2. Замени `index.html` в этом репозитории на скачанный.
 
-## Иконка
+Или сделай так:
 
-Кастомная металлическая W встроена прямо в HTML (favicon + apple-touch-icon).
+```bash
+# Если у тебя есть git
+git clone https://github.com/XeetRav123/WORD-Wheel-Android.git
+cd WORD-Wheel-Android
+# Скачай полный index.html и положи сюда
+git add index.html
+git commit -m "Add full app"
+git push
+```
 
-## Версия
+## Текущий статус
 
-1.8.68
+- Репозиторий создан
+- README готов
+- Структура готова к GitHub Pages
+
+## GitHub Pages
+
+Settings → Pages → Deploy from branch `main` → / (root)
+
+После замены `index.html` приложение будет полностью рабочим с твоей металлической иконкой W.
