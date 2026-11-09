@@ -1,22 +1,23 @@
 # WORD Wheel Android
 
-Android-приложение **WORD Wheel 1.8.68** на базе WebView.
+Полноценный Android APK для **WORD Wheel 1.8.68**.
 
-## Как получить APK
+Приложение загружает полную версию WORD Wheel и использует твою иконку.
 
-1. Зайди в репозиторий → вкладка **Actions**
-2. Выбери workflow **Build APK**
-3. Нажми **Run workflow** → **Run workflow**
-4. После завершения скачай артефакт **WORD-Wheel-APK**
+## Как собрать APK прямо сейчас
 
-Или просто сделай любой push в `main` — сборка запустится автоматически.
+1. Открой репозиторий: https://github.com/XeetRav123/WORD-Wheel-Android
+2. Перейди во вкладку **Actions**
+3. Слева выбери **Build APK**
+4. Нажми кнопку **Run workflow** → **Run workflow**
+5. Подожди 2–3 минуты
+6. Скачай артефакт **WORD-Wheel-APK**
 
-## Структура
+Готовый `.apk` можно устанавливать на телефон.
 
-- `app/src/main/assets/index.html` — полное приложение
-- `app/src/main/java/.../MainActivity.java` — WebView-обёртка
-- Иконка приложения — твоя металлическая W
+## Что внутри
 
-## Версия
-
-1.8.68
+- WebView-обёртка
+- Полное приложение WORD Wheel 1.8.68
+- Твоя металлическая иконка W
+- GitHub Actions для автоматической сборки

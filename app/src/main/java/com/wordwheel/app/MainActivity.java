@@ -53,7 +53,8 @@ public class MainActivity extends Activity {
         webView.setWebChromeClient(new WebChromeClient());
         webView.setBackgroundColor(Color.parseColor("#0f0d15"));
 
-        webView.loadUrl("file:///android_asset/index.html");
+        // Full original application
+        webView.loadUrl("https://raw.githubusercontent.com/XeetRav123/word-wheel/main/index.html");
     }
 
     @Override
