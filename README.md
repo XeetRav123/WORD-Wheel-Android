@@ -1,22 +1,12 @@
 # WORD Wheel Android
 
-**WORD Wheel 1.8.68**
+**WORD Wheel 1.8.68** — полное приложение с твоей иконкой.
 
-Одностраничное веб-приложение с AI-чат интерфейсом.
+Открой `index.html` — оно автоматически загружает полную версию приложения и подставляет твою металлическую иконку W.
 
-## Запуск
+## GitHub Pages
 
-Открой `index.html` в браузере или включи GitHub Pages:
+Settings → Pages → Deploy from branch `main` → root
 
-**Settings → Pages → Deploy from a branch → `main` → root**
-
-## Особенности
-
-- Адаптивный дизайн
-- Тёмная тема
-- Кастомная иконка (металлическая W)
-- Готово для Android WebView / PWA
-
-## Версия
-
-1.8.68
+После включения Pages приложение будет доступно по ссылке вида:
+`https://xeetrav123.github.io/WORD-Wheel-Android/`
